@@ -10,7 +10,7 @@ const WorkCard = ({company}) => {
   return (
     <div className={`bg-slate-50 shadow-xl rounded-2xl mb-16 flex ${rev} justify-center items-start gap-10 p-10`}>
         <div className="w-2/4 rounded-2xl h-[20rem] overflow-hidden">
-        <img src={image} alt="name" className='rounded-2xl transition-all duration-[10s] hover:-translate-y-[90%]' />
+        <img src={image} alt="name" className='rounded-2xl transition-all duration-[10s] hover:-translate-y-[50%]' />
         </div>
         <div className='w-2/4'>
             <h3 className='text-4xl font-semibold'>{name}</h3>
