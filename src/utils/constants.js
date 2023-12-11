@@ -41,7 +41,7 @@ export const WORK_PROJECTS = [
     },
     {
         id: 2,
-        name: 'SPI',
+        name: 'SPI Engineers',
         image: spi,
         redirection: "https://www.spiengineers.com/",
         organisation: 'SPI Engineers Pvt. Ltd',
