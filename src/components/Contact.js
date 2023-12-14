@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
-    <section className=' pt-10 pb-28 w-[55%] mx-auto relative'>
-    <div className='h-fit flex items-center justify-evenly w-3/4 mx-auto'>
+    <section className=' pt-10 pb-5 md:pb-28 w-[98%] md:w-[55%] mx-auto relative'>
+    <div className='h-fit flex items-center justify-evenly w-full md:w-3/4 mx-auto'>
     <div className='mb-20 h-28'>
-        <h2 className='text-9xl font-black uppercase tracking-widest text-slate-50 absolute -left-[40%] top-0 w-screen'>
+        <h2 className=' text-6xl md:text-9xl font-black uppercase tracking-widest text-slate-50 absolute left-0 md:-left-[40%] top-0 w-screen mt-10 md:mt-0'>
         <div className="marquee">
             <div className="track">
                 <div className="content">&nbsp;Lets Connect Lets Connect Lets Connect Lets Connect Lets Connect   </div>
@@ -16,7 +16,7 @@ const Contact = () => {
         </h2>
         </div>
     </div>
-        <div className='bg-slate-50 w-[100%] mx-auto mb-16 py-20 px-10 rounded-2xl'>
+        <div className='bg-slate-50 w-[100%] mx-auto mb-16 py-5 px-2 md:py-20 md:px-10 rounded-2xl  -mt-20 md:mt-0'>
           <h6 className='text-blue-700 font-semibold uppercase'>
           Contact
           </h6>

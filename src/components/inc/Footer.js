@@ -6,7 +6,7 @@ import gitHub from "../../assets/images/github.png"
 const Footer = () => {
   return (
     <section className='bg-black'>
-        <div className='px-12 py-6 flex justify-between items-center'>
+        <div className='px-12 py-6 flex justify-between items-center flex-col md:flex-row gap-y-1.5'>
             <p className='text-slate-50'>Copyright © 2023. All rights are reserved</p>
             <p className=" flex text-slate-50">Lets Connect :<span className='mr-2 ml-4'>
             <Link to={"https://in.linkedin.com/in/ankitmishra-95"}> <img src={linkedin} alt='Linkedin' className='w-6' /></Link></span>

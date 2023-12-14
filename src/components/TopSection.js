@@ -5,7 +5,7 @@ import TopStack from './TopStack'
 
 const TopSection = () => {
   return (
-    <section className='h-fit flex items-center justify-evenly w-3/4 mx-auto relative py-32'>
+    <section className='h-fit flex md:flex-row flex-col items-center justify-evenly w-full md:w-3/4 mx-auto relative py-5 md:py-32 px-5 md:px-0'>
         <TopInfo />
         <TopImage />
         <TopStack />

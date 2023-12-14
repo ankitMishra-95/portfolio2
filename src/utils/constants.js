@@ -63,4 +63,4 @@ export const WORK_PROJECTS = [
         organisation: 'Car Club',
         description: "Car club is a premier car rental company founded with a vision of becoming a leader in “Ground Transportation” for both personal and corporate travel. Car club is backed by panel of experienced Industry experts who have collective experience of more than 100 years."
     },
-]
+];
