@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { NAVS_ELEMTS } from '../../utils/constants'
-import PDF from '../../assets/images/sample.pdf'
+import PDF from '../../assets/images/Ankit_Mishra_Frontend_Engineer_Resume.pdf'
 import NAVICON from "../../assets/images/nav-icon.png"
 
 const Header = () => {
